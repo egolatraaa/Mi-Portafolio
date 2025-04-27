@@ -8,5 +8,5 @@ export default defineConfig({
     vue(),
     tailwindcss(),
   ],
-  base: '/Mi-Portafolio/',
+  base: '/portafolio/',
 })
