@@ -259,48 +259,6 @@ onMounted(() => {
 
           <div class="relative">
             <div class="space-y-16 pl-16 md:pl-20">
-              <!-- Versalles -->
-              <div
-                class="relative animate-fade-in-up opacity-0 animation-delay-200"
-              >
-                <!-- Icono de bolsa de trabajo -->
-                <div
-                  class="absolute -left-11 md:-left-12 top-1 w-8 h-8 md:w-10 md:h-10 rounded-full bg-indigo-500 flex items-center justify-center border-2 border-indigo-400/50 z-10"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-white"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
-                      clip-rule="evenodd"
-                    />
-                    <path
-                      d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"
-                    />
-                  </svg>
-                </div>
-
-                <!-- Tarjeta -->
-                <div>
-                  <p class="text-lg font-semibold text-white">
-                    Desarrollador Full Stack - Versalles Beauty
-                  </p>
-                  <p class="text-sm text-indigo-400 mb-2">
-                    Enero 2024 - Abril 2025
-                  </p>
-                  <p class="text-gray-300 text-sm">
-                    Lideré la construcción de una plataforma de e-commerce
-                    completa orientada a optimizar la conversión de ventas en un
-                    70%. Me encargué del diseño, desarrollo, configuración del
-                    VPS y orquestación de servicios con Docker.
-                  </p>
-                </div>
-              </div>
-
               <!-- Freelance -->
               <div
                 class="relative animate-fade-in-up opacity-0 animation-delay-300"
@@ -400,7 +358,7 @@ onMounted(() => {
                 <!-- Ahora sí: este link se manda hasta abajo -->
                 <div class="mt-auto">
                   <a
-                    href="https://essenzia.shop"
+                    href="https://frontend-essenzia-uf0t.onrender.com"
                     target="_blank"
                     class="text-indigo-400 text-sm hover:underline transition"
                   >
@@ -410,28 +368,24 @@ onMounted(() => {
               </div>
             </div>
 
-            <!-- Proyecto Versalles -->
+            <!-- Proyecto La Perla Dorada -->
             <div
               class="bg-zinc-800 rounded-xl overflow-hidden flex flex-col border border-zinc-700 hover:border-indigo-500 transition"
             >
               <img
-                src="/versalles-proyecto.png"
-                alt="Versalles Preview"
+                src="/perladorada-proyecto.png"
+                alt="La Perla Dorada Preview"
                 class="w-full h-48 object-cover"
               />
-              <div class="flex flex-col justify-between p-4">
-                <!-- Ajusté el padding aquí también -->
+              <div class="flex flex-col flex-1 p-4">
                 <div>
                   <h3 class="text-2xl font-semibold mb-3 text-white">
-                    Ecommerce Versalles Beauty Mindset
+                    Página Web La Perla Dorada
                   </h3>
                   <p class="text-gray-400 mb-4 text-sm">
-                    <!-- Reducido el margen inferior -->
-                    Plataforma de e-commerce con más de 3000 productos, sistema
-                    de referidos y panel administrador completo.
+                    Página web de presentación para un restaurante.
                   </p>
                   <div class="flex flex-wrap gap-2 mb-4">
-                    <!-- Reducido el margen inferior -->
                     <span
                       class="px-3 py-1 bg-zinc-700 text-indigo-300 rounded-full text-xs flex items-center gap-1"
                     >
@@ -440,24 +394,20 @@ onMounted(() => {
                     <span
                       class="px-3 py-1 bg-zinc-700 text-indigo-300 rounded-full text-xs flex items-center gap-1"
                     >
-                      <PythonIcon /> Python
-                    </span>
-                    <span
-                      class="px-3 py-1 bg-zinc-700 text-indigo-300 rounded-full text-xs flex items-center gap-1"
-                    >
-                      <FirebaseIcon /> Firebase
-                    </span>
-                    <span
-                      class="px-3 py-1 bg-zinc-700 text-indigo-300 rounded-full text-xs flex items-center gap-1"
-                    >
-                      <MongoIcon /> MongoDB
+                      <TailwindIcon /> Tailwind
                     </span>
                   </div>
                 </div>
-                <p class="text-xs text-gray-500 italic">
-                  Proyecto finalizado, no publicado por decisión de la empresa.
-                  Demo disponible bajo solicitud.
-                </p>
+
+                <div class="mt-auto">
+                  <a
+                    href="https://egolatraaa.github.io/La-Perla-Dorada/"
+                    target="_blank"
+                    class="text-indigo-400 text-sm hover:underline transition"
+                  >
+                    Ver proyecto
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -596,8 +546,8 @@ onMounted(() => {
           <!-- Botón centrado -->
           <div class="flex justify-center mt-10">
             <a
-              href="/OscarIbarraranCV.pdf"
-              download
+              href="/Mi-Portafolio/OscarIbarraranCV.pdf"
+              dowload="OscarIbarraranCV.pdf"
               class="group relative inline-flex items-center gap-2 overflow-hidden bg-gray-700 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300"
             >
               <!-- Fondo animado -->

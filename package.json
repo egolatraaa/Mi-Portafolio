@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/vue": "^2.2.0",
@@ -14,6 +15,7 @@
     "@tailwindcss/vite": "^4.1.4",
     "@vicons/utils": "^0.1.4",
     "lucide-vue-next": "^0.503.0",
+    "portafolio": "file:",
     "react-icons": "^5.5.0",
     "simple-icons": "^14.12.3",
     "tailwindcss": "^4.1.4",
@@ -22,6 +24,7 @@
   "devDependencies": {
     "@iconify/json": "^2.2.331",
     "@vitejs/plugin-vue": "^5.2.2",
+    "gh-pages": "^6.3.0",
     "unplugin-icons": "^22.1.0",
     "vite": "^6.3.1"
   }
